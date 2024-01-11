@@ -12,7 +12,7 @@ Este programa en Python permite comparar las puntuaciones de Lucía y Carlos en 
 * El resultado se guardará en un archivo llamado output.txt.
 ## Estructura del Código
 El código consta de una función principal (**'compareTriplets'**) que compara las puntuaciones en tres categorías y devuelve un resultado. También, se utiliza el módulo **'os'** para gestionar rutas de archivos.
-## Archivo de Salida ('output.txt')
+## Archivo de Salida ('resultados.txt')
 El programa generará un archivo de salida (**'resultados.txt'**) que contiene la comparación de categorías y el ganador.
 **Nota:** En caso de empate, se indicará que no hay un ganador.
 # Contador de Manzanas y Naranjas
