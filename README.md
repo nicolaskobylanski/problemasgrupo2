@@ -13,7 +13,7 @@ Este programa en Python permite comparar las puntuaciones de Lucía y Carlos en 
 ## Estructura del Código
 El código consta de una función principal (**'compareTriplets'**) que compara las puntuaciones en tres categorías y devuelve un resultado. También, se utiliza el módulo **'os'** para gestionar rutas de archivos.
 ## Archivo de Salida ('output.txt')
-El programa generará un archivo de salida (**'output.txt'**) que contiene la comparación de categorías y el ganador.
+El programa generará un archivo de salida (**'resultados.txt'**) que contiene la comparación de categorías y el ganador.
 **Nota:** En caso de empate, se indicará que no hay un ganador.
 # Contador de Manzanas y Naranjas
 Este proyecto consiste en un programa en Python que simula el problema de contar manzanas y naranjas que caen dentro de un rango específico en torno a la casa de Sam. El programa solicita al usuario ingresar información sobre la ubicación de la casa de Sam, la ubicación de los árboles de manzanas y naranjas, la cantidad de manzanas y naranjas, y finalmente, las distancias a las que caen cada manzana y naranja.
