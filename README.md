@@ -15,9 +15,24 @@ El código consta de una función principal (**'compareTriplets'**) que compara 
 ## Archivo de Salida ('resultados.txt')
 El programa generará un archivo de salida (**'resultados.txt'**) que contiene la comparación de categorías y el ganador.
 **Nota:** En caso de empate, se indicará que no hay un ganador.
-# Contador de Manzanas y Naranjas
-Este proyecto consiste en un programa en Python que simula el problema de contar manzanas y naranjas que caen dentro de un rango específico en torno a la casa de Sam. El programa solicita al usuario ingresar información sobre la ubicación de la casa de Sam, la ubicación de los árboles de manzanas y naranjas, la cantidad de manzanas y naranjas, y finalmente, las distancias a las que caen cada manzana y naranja.
-## Funcionalidades
 
--   Calcula y muestra la cantidad de manzanas y naranjas que caen dentro de un rango específico alrededor de la casa de Sam.
--   Maneja errores de entrada del usuario para asegurar que se ingresen valores válidos.
+#Contador de Manzanas y Naranjas
+Este script en Python resuelve el problema de contar cuántas manzanas y naranjas caen dentro del rango de una casa. La posición de la casa se define por un punto de inicio (s) y un punto final (t), mientras que los árboles de manzanas (a) y naranjas (b) se ubican en diferentes posiciones.
+
+##Estructura del Código
+El código se organiza en funciones para mejorar la legibilidad y modularidad, y también incluye funciones específicas para validar la entrada del usuario. Aquí están las funcionalidades clave del script:
+
+countApplesAndOranges: Calcula y muestra la cantidad de manzanas y naranjas que caen dentro del rango de la casa de Sam.
+
+get_valid_input: Solicita al usuario una entrada específica y valida que sea válida según ciertos criterios.
+
+main: La función principal que guía al usuario a través del proceso de ingreso de datos, asegurando que se proporcionen valores válidos.
+
+##Funcionalidades Adicionales
+Manejo de Errores: El script maneja errores de entrada para garantizar que el usuario ingrese valores válidos en cada paso.
+
+Validación de Rangos y Cantidades: Se implementan controles para asegurarse de que los valores ingresados cumplan con requisitos específicos, como que el punto de inicio sea menor que el punto final y que la cantidad de frutas sea un número no negativo.
+
+Flexibilidad con Distancias: El script permite ingresar distancias positivas y negativas para representar caídas a la izquierda o a la derecha de los árboles.
+
+Modularidad: Las funciones están diseñadas de manera modular, facilitando la expansión y el mantenimiento del código.
