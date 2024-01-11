@@ -9,7 +9,7 @@ Este programa en Python permite comparar las puntuaciones de Lucía y Carlos en 
 * Cada puntuación debe ser un número entre 0 y 100, y se deben proporcionar tres puntuaciones separadas por espacios.
 3. Resultados:
 * El programa calculará y mostrará cuántas categorías ha ganado Lucía y cuántas ha ganado Carlos.
-* El resultado se guardará en un archivo llamado output.txt.
+* El resultado se guardará en un archivo llamado resultados.txt.
 ## Estructura del Código
 El código consta de una función principal (**'compareTriplets'**) que compara las puntuaciones en tres categorías y devuelve un resultado. También, se utiliza el módulo **'os'** para gestionar rutas de archivos.
 ## Archivo de Salida ('resultados.txt')
