@@ -35,6 +35,7 @@ if __name__ == "__main__":
     n = "a"
     x = "a"
 
+# Solicita al usuario que ingrese el punto de inicio y final de la ubicación de la casa de Sam
     while s == "a" or t == "a" or s >= t:
         try:
             print(
@@ -47,7 +48,7 @@ if __name__ == "__main__":
             print(
                 "Error: Por favor, asegúrate de ingresar números válidos para todas las entradas."
             )
-
+# Solicita al usuario que ingrese la ubicación del manzano y del naranjo
     while a == "a" or b == "a" or a >= s or b <= t:
         try:
             print("Ingrese la ubicación del manzano y del naranjo; ejemplo: (2 4):")
@@ -58,7 +59,7 @@ if __name__ == "__main__":
             print(
                 "Error: Por favor, asegúrate de ingresar números válidos para todas las entradas."
             )
-
+# Solicita al usuario que ingrese la cantidad de manzanas y naranjas
     while  m == "a" or n == "a" or m < 0 or n < 0:
         try:
             print("Ingrese la cantidad de manzanas y naranjas (m n):")
@@ -69,6 +70,7 @@ if __name__ == "__main__":
             print(
                 "Error: Por favor, asegúrate de ingresar números válidos para todas las entradas."
         )
+# Solicita al usuario que ingrese las distancias a las que han caído las manzanas            
     while x == "a" :
         apples = []
         try:
@@ -83,7 +85,7 @@ if __name__ == "__main__":
             x = "a"
         elif len(apples) == m :
             x = "b"
-
+# Solicita al usuario que ingrese las distancias a las que han caído las naranjas
     while x == "b":
         oranges = []
         try:
@@ -101,8 +103,3 @@ if __name__ == "__main__":
 
     # Llama a la función countApplesAndOranges con los valores proporcionados por el usuario
     countApplesAndOranges(s, t, a, b, apples, oranges)
-
-
-
-
-
